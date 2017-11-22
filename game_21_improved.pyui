@@ -1,0 +1,295 @@
+[
+  {
+    "class" : "View",
+    "attributes" : {
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "enabled" : true,
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "frame" : "{{0, 0}, {1024, 768}}",
+    "selected" : false,
+    "nodes" : [
+      {
+        "class" : "ImageView",
+        "attributes" : {
+          "class" : "ImageView",
+          "name" : "computer_card_1_imageview",
+          "uuid" : "BEBE985F-56D4-44B2-9DE1-3B6CED14D3C6",
+          "frame" : "{{462, 334}, {100, 100}}"
+        },
+        "frame" : "{{31, 67}, {100, 100}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "ImageView",
+        "attributes" : {
+          "class" : "ImageView",
+          "name" : "computer_card_2_imageview",
+          "uuid" : "7E92505C-37EC-4817-8A5B-83C5AE1B2CD6",
+          "frame" : "{{462, 334}, {100, 100}}"
+        },
+        "frame" : "{{139, 67}, {100, 100}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "ImageView",
+        "attributes" : {
+          "class" : "ImageView",
+          "name" : "computer_card_3_imageview",
+          "uuid" : "A3FBCF70-07D3-4199-A5BA-4B282E82F4AE",
+          "frame" : "{{462, 334}, {100, 100}}"
+        },
+        "frame" : "{{247, 67}, {100, 100}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "Game 21",
+          "font_name" : "<System>",
+          "name" : "title_label",
+          "class" : "Label",
+          "alignment" : "center",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "3A65B844-530F-43E0-806A-E7BC099F271D"
+        },
+        "frame" : "{{259, 6}, {150, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "Would you like to draw another card?",
+          "font_name" : "<System>",
+          "name" : "question_label",
+          "class" : "Label",
+          "alignment" : "left",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "08763B5D-1282-42ED-B2BB-5B3E8DE43A25"
+        },
+        "frame" : "{{31, 484}, {307, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "ImageView",
+        "attributes" : {
+          "class" : "ImageView",
+          "name" : "user_card_1_imageview",
+          "uuid" : "87BD2F52-986C-4BBB-901F-2DB695D362EB",
+          "frame" : "{{462, 334}, {100, 100}}"
+        },
+        "frame" : "{{31, 226}, {100, 100}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "ImageView",
+        "attributes" : {
+          "class" : "ImageView",
+          "name" : "user_card_2_imageview",
+          "uuid" : "66D34A70-99FC-418E-974E-9ED7402EBB0D",
+          "frame" : "{{462, 334}, {100, 100}}"
+        },
+        "frame" : "{{144, 228}, {100, 100}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "ImageView",
+        "attributes" : {
+          "class" : "ImageView",
+          "name" : "user_card_3_imageview",
+          "uuid" : "22D0410C-4296-4B6B-A29A-67883B297D8F",
+          "frame" : "{{462, 334}, {100, 100}}"
+        },
+        "frame" : "{{252, 228}, {100, 100}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "",
+          "font_name" : "<System>",
+          "name" : "winner_label",
+          "class" : "Label",
+          "alignment" : "center",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "05B77781-95C6-4A95-AA1C-B604D6A7D40E"
+        },
+        "frame" : "{{370, 293}, {150, 35}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 15,
+          "title" : "Yes",
+          "name" : "extra_card_button",
+          "action" : "extra_card_touch_up_inside",
+          "class" : "Button",
+          "frame" : "{{472, 368}, {80, 32}}",
+          "uuid" : "87EBD745-E4F5-4426-8EE0-4F12BBDACB34"
+        },
+        "frame" : "{{31, 524}, {80, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 15,
+          "uuid" : "AFB826AE-B538-4CB5-A256-337ABFBE5630",
+          "name" : "no_extra_card_button",
+          "action" : "no_extra_card_touch_up_inside",
+          "class" : "Button",
+          "frame" : "{{472, 368}, {80, 32}}",
+          "title" : "No"
+        },
+        "frame" : "{{267, 524}, {80, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "",
+          "font_name" : "<System>",
+          "name" : "user_total_label",
+          "class" : "Label",
+          "alignment" : "center",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "DFBD4992-85B1-4C54-9D88-9F4D0EB9B1E7"
+        },
+        "frame" : "{{355, 154}, {178, 30}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "",
+          "font_name" : "<System>",
+          "name" : "computer_total_label",
+          "class" : "Label",
+          "alignment" : "center",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "DDE45F47-AC01-40F7-9F16-3C5AF1A3D329"
+        },
+        "frame" : "{{315, 192}, {218, 28}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 15,
+          "uuid" : "EBFE10FF-1E4A-451C-972C-00E700AAD8B1",
+          "name" : "show_cards_button",
+          "action" : "show_present_card_touch_up_inside",
+          "class" : "Button",
+          "frame" : "{{472, 368}, {80, 32}}",
+          "title" : "Show My Cards"
+        },
+        "frame" : "{{128, 404}, {136, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "",
+          "font_name" : "<System>",
+          "name" : "current_total_label",
+          "class" : "Label",
+          "alignment" : "center",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "765B751E-DA04-4A82-A642-221FCDA8C889"
+        },
+        "frame" : "{{31, 444}, {307, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "Dealer's Cards:",
+          "font_name" : "<System>",
+          "name" : "dealer_label",
+          "class" : "Label",
+          "alignment" : "left",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "533CD6F4-D98C-4D74-AA74-12F35226C402"
+        },
+        "frame" : "{{31, 27}, {150, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "User's Cards:",
+          "font_name" : "<System>",
+          "name" : "user_label",
+          "class" : "Label",
+          "alignment" : "left",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "99D1D168-EE71-4F51-BD77-8A5982787A3C"
+        },
+        "frame" : "{{31, 188}, {150, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      }
+    ]
+  }
+]
