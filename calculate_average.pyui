@@ -1,0 +1,162 @@
+[
+  {
+    "class" : "View",
+    "attributes" : {
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "enabled" : true,
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "frame" : "{{0, 0}, {1024, 768}}",
+    "selected" : false,
+    "nodes" : [
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "Calculate My Average",
+          "font_name" : "<System>",
+          "name" : "title_label",
+          "class" : "Label",
+          "alignment" : "center",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "27D4C4E9-3253-4F9A-AB85-6743C354A7C1"
+        },
+        "frame" : "{{116, 41}, {239, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "TextField",
+        "attributes" : {
+          "font_size" : 17,
+          "font_name" : "<System>",
+          "autocorrection_type" : "default",
+          "name" : "enter_mark_textbox",
+          "class" : "TextField",
+          "alignment" : "center",
+          "frame" : "{{412, 368}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "uuid" : "9EA305BB-A2BF-41AE-B885-0E84A2140915"
+        },
+        "frame" : "{{134, 119}, {200, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "TextView",
+        "attributes" : {
+          "font_size" : 17,
+          "font_name" : "<System>",
+          "flex" : "WHLRTB",
+          "autocorrection_type" : "default",
+          "name" : "marks_textview",
+          "uuid" : "691DD558-6595-41A7-811B-F9C3B96A07A3",
+          "class" : "TextView",
+          "editable" : true,
+          "alignment" : "center",
+          "frame" : "{{412, 284}, {200, 200}}",
+          "spellchecking_type" : "default"
+        },
+        "frame" : "{{44, 312}, {644, 159}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "",
+          "font_name" : "<System>",
+          "name" : "average_label",
+          "class" : "Label",
+          "alignment" : "center",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "D61AEC7F-024A-4E5B-A9CF-978F1A504D71"
+        },
+        "frame" : "{{10, 519}, {461, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 15,
+          "uuid" : "36C2EF44-3BB2-4255-99DD-E424B3B8C8A4",
+          "name" : "show_average_button",
+          "action" : "show_average_touch_up_inside",
+          "class" : "Button",
+          "frame" : "{{472, 368}, {80, 32}}",
+          "title" : "Show My Average"
+        },
+        "frame" : "{{161, 479}, {148, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 15,
+          "uuid" : "A916D444-7E60-4DC4-85B1-8DCDDC94654E",
+          "name" : "enter_mark_button",
+          "action" : "enter_mark_touch_up_inside",
+          "class" : "Button",
+          "frame" : "{{472, 368}, {80, 32}}",
+          "title" : "Enter Mark"
+        },
+        "frame" : "{{161, 166}, {148, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "",
+          "font_name" : "<System>",
+          "name" : "error_label",
+          "class" : "Label",
+          "alignment" : "center",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "A362423F-E454-4AB6-B0A9-554293AA7A75"
+        },
+        "frame" : "{{6, 206}, {465, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "Please enter any level between NE - 4+ (eg. 1-).",
+          "font_name" : "<System>",
+          "name" : "question_label",
+          "class" : "Label",
+          "alignment" : "center",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "C16BA412-D5CB-4A78-9BB3-AC8512B22EF5"
+        },
+        "frame" : "{{44, 81}, {407, 32}}",
+        "selected" : true,
+        "nodes" : [
+
+        ]
+      }
+    ]
+  }
+]
